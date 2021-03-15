@@ -1,0 +1,11 @@
+apply from: "$project.rootDir/scripts/common-library.gradle"
+
+dependencies {
+    implementation project(":common-strings")
+    implementation androidXDependencies.coreKtx
+    implementation coroutinesDependencies.core
+    implementation otherDependencies.timber
+    implementation otherDependencies.jsr310
+    implementation otherDependencies.gson
+    implementation otherDependencies.inputmask
+}
