@@ -12,11 +12,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/sources/common/source/core" />
-            <option value="$PROJECT_DIR$/sources/common/source/strings" />
-            <option value="$PROJECT_DIR$/sources/common/source/uikit" />
-            <option value="$PROJECT_DIR$/sources/data/source/payment" />
-            <option value="$PROJECT_DIR$/sources/domain/source/payment" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
