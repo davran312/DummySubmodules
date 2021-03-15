@@ -3,8 +3,6 @@ package namba.nambaone.wallet.domain.payment.gateway
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import namba.nambaone.wallet.domain.shared.model.Amount
-import namba.nambaone.wallet.domain.payment.gateway.PayloadLocalGateway
-import namba.nambaone.wallet.domain.payment.gateway.PayloadRestGateway
 
 class PayloadInteractor(
     private val payloadRestGateway: PayloadRestGateway,

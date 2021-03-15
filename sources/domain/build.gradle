@@ -1,2 +1,0 @@
-apply from: "$project.rootDir/scripts/common-library.gradle"
-

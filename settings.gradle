@@ -1,1 +1,21 @@
 include ':app'
+addSubfolderProjects("sources/common/source", "common")
+addSubfolderProjects("sources/domain/source", "domain")
+addSubfolderProjects("sources/data/source", "data")
+
+
+def addSubfolderProjects(String relativePath, String prefix = "") {
+    def folder = file("$rootProject.projectDir/$relativePath")
+    folder.eachDir { nestedDir ->
+        if (nestedDir.listFiles().any { it.name == 'build.gradle' }) {
+            def projectDir = nestedDir.name
+            def projectName = projectDir
+            if (!prefix.empty) {
+                projectName = "$prefix-$nestedDir.name"
+            }
+
+            include projectName
+            project(":${projectName}").projectDir = nestedDir
+        }
+    }
+}
