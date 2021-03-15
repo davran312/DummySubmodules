@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FFFFFF</color>
+    <color name="primaryDark">#F8F8F8</color>
+    <color name="ripple">#88EBEBEB</color>
+
+    <color name="highEmphasisOnPrimary">#222324</color>
+    <color name="mediumEmphasisOnPrimary">#636B79</color>
+    <color name="footnotesOnPrimary">#C4C4C4</color>
+    <color name="disabledOnPrimary">#F1F3F8</color>
+    <color name="errorOnPrimary">#FF2C68</color>
+
+    <color name="secondary">#F48037</color>
+    <color name="secondaryDark">#FB7622</color>
+    <color name="secondaryLight">#DEF0FF</color>
+
+    <color name="highEmphasisOnSecondary">#FFFFFF</color>
+    <color name="mediumEmphasisOnSecondary">#FFFFFF</color>
+    <color name="disabledOnSecondary">#51FFFFFF</color>
+
+    <color name="alertBackground">@color/primary</color>
+    <color name="message">#FFF8E0</color>
+
+    <color name="switchTintPrimary">@color/secondary</color>
+    <color name="switchTintSecondary">@color/primaryDark</color>
+    <color name="switchTintBackground">@color/disabledOnPrimary</color>
+
+    <color name="divider">#EFEFF4</color>
+    <color name="dividerSecondary">#F5F8FD</color>
+
+    <color name="orange_box">#FB6C1B</color>
+    <color name="red_box">#FFB8A1</color>
+    <color name="yellow_box">#FFD000</color>
+    <color name="green_box">#59B163</color>
+
+    <color name="apply">#59B163</color>
+
+    <!-- MediaPicker -->
+    <color name="media_picker_item_background_normal">#14000000</color>
+    <color name="media_picker_item_background_activated">#66ffffff</color>
+    <color name="media_picker_item_background_focused">#99ffffff</color>
+
+    <color name="primaryLightOrange">#FDB36E</color>
+    <color name="primaryLightViolet">#7367FF</color>
+    <color name="primaryViolet">#6C54FF</color>
+    <color name="primaryLightGreen">#90D34E</color>
+    <color name="primaryBlue">#007AFF</color>
+    <color name="primaryPurple">#BC67FF</color>
+    <color name="secondaryBlue">#636B79</color>
+    <color name="primaryPink">#F154A0</color>
+    <color name="primaryGreen">#3AAB3C</color>
+    <color name="primaryOrange">#F48037</color>
+    <color name="primaryRed">#FF0000</color>
+    <color name="primaryGrey">#E2E9F1</color>
+    <color name="primaryDisabled">#FAFAFA</color>
+
+    <!-- Profile Tarrif item colors -->
+    <color name="lightYellow">#FFF7AD</color>
+    <color name="lightGreen">#99E8AD</color>
+    <color name="lightRed">#FFB8A2</color>
+    <color name="lightBlue">#A8E0FF</color>
+    <color name="lightYellowBackground">#FFFDEF</color>
+    <color name="lightGreenBackground">#E7FFED</color>
+    <color name="lightRedBackground">#FFF5F2</color>
+    <color name="lightBlueBackground">#F2FBFF</color>
+
+    <color name="barcodeMask">#60000000</color>
+</resources>

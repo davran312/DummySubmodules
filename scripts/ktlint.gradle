@@ -1,0 +1,33 @@
+configurations {
+    ktlint
+}
+
+dependencies {
+    ktlint "com.pinterest:ktlint:$ktlintVersion"
+}
+
+task ktlint(type: JavaExec) {
+    main = "com.pinterest.ktlint.Main"
+    classpath = configurations.ktlint
+    args "$rootDir/**/*.kt"
+
+    if (project.hasProperty("autoCorrect") && project.property("autoCorrect") == "0") {
+        println("Ktlint auto correction is disabled")
+    } else {
+        println("Ktlint auto correction is enabled")
+        args "-F"
+    }
+}
+task ktlintVerify(type: JavaExec,group: "verification") {
+    description = "Check Kotlin code style."
+    classpath = configurations.ktlint
+    main = "com.pinterest.ktlint.Main"
+    args "src/**/*.kt"
+}
+
+task ktlintFormat(type: JavaExec, group: "formatting") {
+    description = "Fix Kotlin code style deviations."
+    classpath = configurations.ktlint
+    main = "com.pinterest.ktlint.Main"
+    args "-F", "src/**/*.kt"
+}

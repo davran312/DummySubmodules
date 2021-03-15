@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@android:color/black">
+
+    <namba.wallet.nambaone.uikit.camera.views.RecordButtonView
+        android:id="@+id/recVideoImageView"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/camera_button_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/closeImageView"
+        android:layout_width="@dimen/button_height"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_close_white_24dp"
+        android:text="@string/cancel"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/toggleCameraImageView"
+        android:layout_width="@dimen/button_height"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_toggle_camera"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/recVideoImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recVideoImageView"
+        app:layout_constraintTop_toTopOf="@+id/recVideoImageView"
+        tools:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/photoProcessingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="?colorSecondary"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

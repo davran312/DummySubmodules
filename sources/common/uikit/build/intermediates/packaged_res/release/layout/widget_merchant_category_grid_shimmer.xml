@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/skeleton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior=".ScrollingViewBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_disabled_on_primary_rounded" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/background_disabled_on_primary_rounded" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/background_disabled_on_primary_rounded" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

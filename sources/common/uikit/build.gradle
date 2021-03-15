@@ -1,0 +1,32 @@
+apply from: "$project.rootDir/scripts/common-library.gradle"
+
+dependencies {
+    implementation project(':common-strings')
+    implementation project(':common-core')
+    implementation kotlinDependencies.stdlib
+
+    implementation coroutinesDependencies.core
+    implementation coroutinesDependencies.android
+
+    implementation androidXDependencies.coreKtx
+    implementation androidXDependencies.activity
+    implementation androidXDependencies.activityKtx
+    implementation androidXDependencies.fragment
+    implementation androidXDependencies.appcompat
+    implementation androidXDependencies.constraintLayout
+    implementation androidXDependencies.lifecycleRuntimeKtx
+    implementation androidXDependencies.customTabs
+    implementation androidXDependencies.swipeRefreshLayout
+
+    implementation androidXDependencies.materialDesign
+
+    implementation koinDependencies.core
+    implementation koinDependencies.viewModel
+
+    implementation glideDependencies.core
+
+    implementation otherDependencies.shimmer
+    implementation otherDependencies.timber
+    implementation otherDependencies.gestureView
+    implementation otherDependencies.cameraView
+}

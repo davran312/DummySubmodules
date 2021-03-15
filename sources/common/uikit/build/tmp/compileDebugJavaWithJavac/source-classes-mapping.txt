@@ -1,0 +1,2 @@
+namba/wallet/nambaone/uikit/BuildConfig.java
+ namba.wallet.nambaone.uikit.BuildConfig

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/sfprodisplay_semibold</item>
+        <item>@font/sfprodisplay_regular</item>
+        <item>@font/sfprodisplay_medium</item>
+        <item>@font/sfprodisplay_bold</item>
+    </array>
+    <attr format="color|reference" name="colorAlertBackground"/>
+    <attr format="color|reference" name="colorApply"/>
+    <attr format="color|reference" name="colorDisabledOnPrimary"/>
+    <attr format="color|reference" name="colorDisabledOnSecondary"/>
+    <attr format="color|reference" name="colorErrorOnPrimary"/>
+    <attr format="color|reference" name="colorFootnotesOnPrimary"/>
+    <attr format="color|reference" name="colorHighEmphasisOnPrimary"/>
+    <attr format="color|reference" name="colorHighEmphasisOnSecondary"/>
+    <attr format="color|reference" name="colorMediumEmphasisOnPrimary"/>
+    <attr format="color|reference" name="colorMediumEmphasisOnSecondary"/>
+    <attr format="color|reference" name="colorMessage"/>
+    <attr format="color|reference" name="colorSecondaryDark"/>
+    <attr format="color|reference" name="colorSecondaryLight"/>
+    <attr format="boolean" name="enabled"/>
+    <attr format="reference" name="placeholderDrawable"/>
+    <attr format="reference" name="placeholderTint"/>
+    <attr format="string" name="text"/>
+    <bool name="isLightTheme">true</bool>
+    <color name="alertBackground">@color/primary</color>
+    <color name="apply">#59B163</color>
+    <color name="barcodeMask">#60000000</color>
+    <color name="disabledOnPrimary">#F1F3F8</color>
+    <color name="disabledOnSecondary">#51FFFFFF</color>
+    <color name="divider">#EFEFF4</color>
+    <color name="dividerSecondary">#F5F8FD</color>
+    <color name="errorOnPrimary">#FF2C68</color>
+    <color name="footnotesOnPrimary">#C4C4C4</color>
+    <color name="green_box">#59B163</color>
+    <color name="highEmphasisOnPrimary">#222324</color>
+    <color name="highEmphasisOnSecondary">#FFFFFF</color>
+    <color name="lightBlue">#A8E0FF</color>
+    <color name="lightBlueBackground">#F2FBFF</color>
+    <color name="lightGreen">#99E8AD</color>
+    <color name="lightGreenBackground">#E7FFED</color>
+    <color name="lightRed">#FFB8A2</color>
+    <color name="lightRedBackground">#FFF5F2</color>
+    <color name="lightYellow">#FFF7AD</color>
+    <color name="lightYellowBackground">#FFFDEF</color>
+    <color name="media_picker_item_background_activated">#66ffffff</color>
+    <color name="media_picker_item_background_focused">#99ffffff</color>
+    <color name="media_picker_item_background_normal">#14000000</color>
+    <color name="mediumEmphasisOnPrimary">#636B79</color>
+    <color name="mediumEmphasisOnSecondary">#FFFFFF</color>
+    <color name="message">#FFF8E0</color>
+    <color name="orange_box">#FB6C1B</color>
+    <color name="primary">#FFFFFF</color>
+    <color name="primaryBlue">#64BCE1</color>
+    <color name="primaryDark">#F8F8F8</color>
+    <color name="primaryDisabled">#FAFAFA</color>
+    <color name="primaryGreen">#3AAB3C</color>
+    <color name="primaryGrey">#E2E9F1</color>
+    <color name="primaryLightGreen">#90D34E</color>
+    <color name="primaryLightOrange">#FDB36E</color>
+    <color name="primaryLightViolet">#7367FF</color>
+    <color name="primaryOrange">#F48037</color>
+    <color name="primaryPink">#F154A0</color>
+    <color name="primaryPurple">#BC67FF</color>
+    <color name="primaryRed">#FF0000</color>
+    <color name="primaryViolet">#6C54FF</color>
+    <color name="red_box">#FFB8A1</color>
+    <color name="ripple">#88EBEBEB</color>
+    <color name="secondary">#F48037</color>
+    <color name="secondaryBlue">#636B79</color>
+    <color name="secondaryDark">#FB7622</color>
+    <color name="secondaryLight">#DEF0FF</color>
+    <color name="switchTintBackground">@color/disabledOnPrimary</color>
+    <color name="switchTintPrimary">@color/secondary</color>
+    <color name="switchTintSecondary">@color/primaryDark</color>
+    <color name="yellow_box">#FFD000</color>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="max_keyboard_width">280dp</dimen>
+    <dimen name="media_gallery_items_space">8dp</dimen>
+    <dimen name="media_picker_item_width">96dp</dimen>
+    <dimen name="media_picker_items_space">4dp</dimen>
+    <item name="camera_view_internal" type="id"/>
+    <string name="roboto_bold" translatable="false">@font/sfprodisplay_bold</string>
+    <string name="roboto_medium" translatable="false">@font/sfprodisplay_medium</string>
+    <string name="roboto_regular" translatable="false">@font/sfprodisplay_regular</string>
+    <string name="roboto_semibold" translatable="false">@font/sfprodisplay_semibold</string>
+    <style name="AppBase.v21" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorHighEmphasisOnPrimary">@color/highEmphasisOnPrimary</item>
+        <item name="colorMediumEmphasisOnPrimary">@color/mediumEmphasisOnPrimary</item>
+        <item name="colorFootnotesOnPrimary">@color/footnotesOnPrimary</item>
+        <item name="colorDisabledOnPrimary">@color/disabledOnPrimary</item>
+        <item name="colorErrorOnPrimary">@color/errorOnPrimary</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryLight">@color/secondaryLight</item>
+        <item name="colorSecondaryDark">@color/secondaryDark</item>
+
+        <item name="colorHighEmphasisOnSecondary">@color/highEmphasisOnSecondary</item>
+        <item name="colorMediumEmphasisOnSecondary">@color/mediumEmphasisOnSecondary</item>
+        <item name="colorDisabledOnSecondary">@color/disabledOnSecondary</item>
+
+        <item name="colorControlHighlight">@color/ripple</item>
+
+        <item name="colorApply">@color/apply</item>
+        <item name="colorAlertBackground">@color/alertBackground</item>
+        <item name="colorMessage">@color/message</item>
+
+        <item name="colorAccent">?colorSecondary</item>
+        <item name="colorControlActivated">?colorSecondary</item>
+        <item name="colorControlNormal">?colorDisabledOnPrimary</item>
+        <item name="alertDialogTheme">@style/AppTheme.AlertDialog</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- fix blue text for come Lollipop devices -->
+        <!-- https://stackoverflow.com/questions/45196244/android-textcolor-ignored-in-androidtextappearance-of-the-edittext -->
+        <item name="android:editTextColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:actionMenuTextColor">?colorSecondary</item>
+    </style>
+    <style name="AppRoundCornersModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_alert_elevation_rounded_top</item>
+    </style>
+    <style name="AppTheme" parent="AppBase.v21"/>
+    <style name="AppTheme.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:textColorPrimary">@color/highEmphasisOnPrimary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MediumEmphasisColoredText</item>
+        <item name="buttonBarPositiveButtonStyle">@style/SecondaryColoredText</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowMinWidthMinor">320dp</item>
+    </style>
+    <style name="AppTheme.AlertDialog.NegativePositive">
+        <item name="buttonBarPositiveButtonStyle">@style/ErrorColoredText</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowMinWidthMinor">320dp</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">?colorHighEmphasisOnPrimary</item>
+        <item name="android:textColorSecondary">?colorMediumEmphasisOnPrimary</item>
+    </style>
+    <style name="AppTheme.BottomSheet.Rounded" parent="AppTheme.BottomSheet.Rounded.v21"/>
+    <style name="AppTheme.BottomSheet.Rounded.v21" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="bottomSheetStyle">@style/AppRoundCornersModalStyle</item>
+    </style>
+    <style name="AppTheme.ErrorTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?colorErrorOnPrimary</item>
+    </style>
+    <style name="AppTheme.HelperTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?colorMediumEmphasisOnPrimary</item>
+    </style>
+    <style name="AppTheme.Label"/>
+    <style name="AppTheme.Label.Body1">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular16</item>
+        <item name="android:letterSpacing">0.031</item>
+    </style>
+    <style name="AppTheme.Label.Body1.Medium">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium16</item>
+    </style>
+    <style name="AppTheme.Label.Body2">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular14</item>
+        <item name="android:letterSpacing">0.016</item>
+    </style>
+    <style name="AppTheme.Label.Body2.Medium">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium14</item>
+        <item name="textColor">?colorMediumEmphasisOnPrimary</item>
+    </style>
+    <style name="AppTheme.Label.Button">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium14</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.078</item>
+    </style>
+    <style name="AppTheme.Label.Caption">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular12</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+    <style name="AppTheme.Label.Caption.Medium">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium12</item>
+    </style>
+    <style name="AppTheme.Label.H3">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular34</item>
+    </style>
+    <style name="AppTheme.Label.H4">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Bold28</item>
+    </style>
+    <style name="AppTheme.Label.H5">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium22</item>
+    </style>
+    <style name="AppTheme.Label.H6">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium20</item>
+        <item name="android:letterSpacing">0.00936</item>
+    </style>
+    <style name="AppTheme.Label.Overline">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium10</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.094</item>
+    </style>
+    <style name="AppTheme.Label.Subtitle1">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular16</item>
+        <item name="android:letterSpacing">0.00936</item>
+    </style>
+    <style name="AppTheme.Label.Subtitle2">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium14</item>
+        <item name="android:letterSpacing">0.006</item>
+    </style>
+    <style name="AppTheme.Label.TabItem" parent="@style/AppTheme.TextAppearance.Medium14">
+        <item name="android:letterSpacing">0.094</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="AppTheme.Label.TextButton">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium16</item>
+        <item name="android:letterSpacing">0.009</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="AppTheme.ProgressButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">@color/color_state_secondary_he_enable</item>
+        <item name="android:background">@drawable/background_secondary_rounded_button</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="AppTheme.ProgressButton.Secondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:background">@drawable/background_primary_high_emphasis_stroke</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="AppTheme.SwitchCompat" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <!-- активное состояние (30% прозрачности для фона) -->
+        <item name="colorControlActivated">@color/switchTintPrimary</item>
+
+        <!-- неактивное состояние ползунка -->
+        <item name="colorSwitchThumbNormal">@color/switchTintSecondary</item>
+
+        <!-- цвет дорожки для неактивного состояния (30% прозрачности) -->
+        <item name="android:colorForeground">@color/switchTintBackground</item>
+    </style>
+    <style name="AppTheme.TextAppearance"/>
+    <style name="AppTheme.TextAppearance.Bold28">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium10">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium12">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium14">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium16">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium20">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium22">
+        <item name="android:textColor">?colorFootnotesOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium8">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Regular10">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Regular12">
+        <item name="android:textColor">?colorMediumEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Regular14">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Regular16">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Regular22">
+        <item name="android:textColor">?colorFootnotesOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Regular34">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+    <style name="AppTheme.TextInputLayoutStyle">
+        <item name="android:textColorHint">?colorMediumEmphasisOnPrimary</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+    <style name="BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_alert_elevation_rounded_top</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog"/>
+    <style name="DatePickerSpinner">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColorPrimary">@color/highEmphasisOnPrimary</item>
+        <item name="android:colorControlNormal">@color/mediumEmphasisOnPrimary</item>
+        <item name="lineHeight">1dp</item>
+    </style>
+    <style name="DatePickerSpinnerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
+        <item name="colorControlNormal">?attr/colorMediumEmphasisOnPrimary</item>
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:windowBackground">@drawable/background_primary_rounded</item>
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:maxWidth">328dp</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+    <style name="Divider">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+    <style name="ErrorColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/errorOnPrimary</item>
+    </style>
+    <style name="HighEmphasisColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/highEmphasisOnPrimary</item>
+    </style>
+    <style name="MaterialTheme" parent="Theme.MaterialComponents">
+        <item name="theme">@style/Widget.MaterialComponents.Chip.Entry</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorDisabledOnSecondary">@color/disabledOnSecondary</item>
+    </style>
+    <style name="MaterialTheme.EntryChip">
+        <item name="closeIconEnabled">false</item>
+        <item name="closeIconSize">20dp</item>
+        <item name="closeIconEndPadding">4dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:checkable">true</item>
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@drawable/chip_text_color_state_list</item>
+        <item name="chipBackgroundColor">@drawable/background_chip_state_list</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="closeIcon">@drawable/ic_delete</item>
+        <item name="chipMinHeight">36dp</item>
+    </style>
+    <style name="MediumEmphasisColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/mediumEmphasisOnPrimary</item>
+    </style>
+    <style name="SecondaryColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+    <style name="Separator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_height">.5dp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowMinWidthMinor">280dp</item>
+    </style>
+    <style name="ToolbarBottom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <declare-styleable name="ColorButton">
+        <attr format="string" name="android:text"/>
+        <attr format="string" name="android:description"/>
+    </declare-styleable>
+    <declare-styleable name="CounterFloatingActionButton">
+        <attr format="color|reference" name="textColor"/>
+        <attr format="integer|reference" name="textBackground"/>
+    </declare-styleable>
+    <declare-styleable name="EndlessScrollRecyclerView">
+        <attr format="reference" name="emptyLayout"/>
+        <attr format="reference" name="errorLayout"/>
+        <attr format="reference" name="progressLayout"/>
+        <attr name="android:nestedScrollingEnabled"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandHeaderView">
+        <attr format="string" name="title"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandableLayout">
+        <attr format="integer" name="duration"/>
+        <attr format="boolean" name="expanded"/>
+        <attr format="float" name="parallax"/>
+        <attr name="android:orientation"/>
+    </declare-styleable>
+    <declare-styleable name="FullScreenErrorView">
+        <attr name="text"/>
+    </declare-styleable>
+    <declare-styleable name="ImageWithPlaceholderView">
+        <attr name="placeholderDrawable"/>
+        <attr name="placeholderTint"/>
+        <attr format="boolean" name="clipImageView"/>
+    </declare-styleable>
+    <declare-styleable name="NambaCheckBox">
+        <attr format="boolean" name="indeterminate"/>
+        <attr format="boolean" name="checked"/>
+        <attr format="boolean" name="simple"/>
+    </declare-styleable>
+    <declare-styleable name="NambaTextField">
+        <attr format="color" name="labelColor"/>
+        <attr name="android:textColor"/>
+        <attr format="color" name="focusedBorderColor"/>
+        <attr format="color" name="borderColor"/>
+        <attr format="boolean" name="editable"/>
+        <attr format="boolean" name="isDropdown"/>
+        <attr format="string" name="labelText"/>
+        <attr name="android:digits"/>
+        <attr format="string" name="hintText"/>
+        <attr name="android:inputType"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:imeOptions"/>
+        <attr name="android:text"/>
+        <attr name="android:hint"/>
+    </declare-styleable>
+    <declare-styleable name="NambaToolbar">
+        <attr format="reference" name="navigationTint"/>
+        <attr format="reference" name="toolbarBackground"/>
+        <attr format="boolean" name="elevated"/>
+    </declare-styleable>
+    <declare-styleable name="NumberKeyboardButtonView">
+        <attr format="string" name="keyboard_button_text"/>
+        <attr format="integer" name="keyboard_button_image"/>
+    </declare-styleable>
+    <declare-styleable name="NumberKeyboardView">
+        <attr format="color" name="pressed_button_color"/>
+    </declare-styleable>
+    <declare-styleable name="ProfileSettingsRowTextView">
+        <attr format="string" name="topText"/>
+        <attr format="string" name="bottomText"/>
+        <attr format="reference" name="icon"/>
+        <attr format="color|reference" name="iconTint"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressButton">
+        <attr format="reference" name="android:textAppearance"/>
+        <attr format="string" name="buttonText"/>
+        <attr name="android:textColor"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="boolean" name="buttonTextAllCaps"/>
+        <attr format="reference" name="buttonImage"/>
+        <attr name="android:textStyle"/>
+        <attr name="enabled"/>
+    </declare-styleable>
+    <declare-styleable name="RoundedFrameLayout">
+        <attr format="dimension" name="android:radius"/>
+    </declare-styleable>
+    <declare-styleable name="SimpleErrorView">
+        <attr name="text"/>
+    </declare-styleable>
+    <declare-styleable name="TitledTextView">
+        <attr name="text"/>
+        <attr name="title"/>
+        <attr format="enum" name="titlePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

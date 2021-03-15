@@ -2,19 +2,23 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
+apply from: "$project.rootDir/scripts/ktlint.gradle"
+apply from: "$project.rootDir/scripts/versioning.gradle"
+apply from: "$project.rootDir/scripts/credentials.gradle"
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
-
+    compileSdkVersion sdkCompileVersion
+    buildToolsVersion buildToolsAllVersion
     defaultConfig {
-        applicationId "namba.nambaone.submodules"
-        minSdkVersion 23
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
-
+        applicationId "namba.wallet.nambaone"
+        minSdkVersion sdkMinVersion
+        targetSdkVersion sdkTargetVersion
+        versionCode VERSION_CODE
+        versionName VERSION_NAME
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [appName: "@string/appName"]
+        resConfigs "ru", "en"
     }
 
     buildTypes {
@@ -34,11 +38,53 @@ android {
 
 dependencies {
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation kotlinDependencies.stdlib
+    implementation coroutinesDependencies.core
+    implementation coroutinesDependencies.android
+
+    implementation glideDependencies.core
+    implementation glideDependencies.okHttp
+
+    implementation okHttpDependencies.urlConnection
+
+    implementation retrofitDependencies.core
+    implementation retrofitDependencies.gson
+
+    implementation firebaseDependencies.crashlytics
+
+    implementation androidXDependencies.coreKtx
+    implementation androidXDependencies.activity
+    implementation androidXDependencies.activityKtx
+    implementation androidXDependencies.fragment
+    implementation androidXDependencies.fragmentKtx
+    implementation androidXDependencies.preferences
+    implementation androidXDependencies.appcompat
+    implementation androidXDependencies.materialDesign
+    implementation androidXDependencies.constraintLayout
+    implementation androidXDependencies.swipeRefreshLayout
+    implementation androidXDependencies.customTabs
+    implementation androidXDependencies.lifecycleRuntimeKtx
+    implementation androidXDependencies.biometrics
+    implementation otherDependencies.gestureView
+    implementation playServicesDependencies.map
+    implementation playServicesDependencies.mapUtils
+    implementation playServicesDependencies.location
+    implementation playServicesDependencies.auth
+    implementation playServicesDependencies.authApiPhone
+
+    implementation koinDependencies.core
+    implementation koinDependencies.viewModel
+    implementation koinDependencies.scope
+
+    implementation otherDependencies.flexBox
+    implementation otherDependencies.gson
+    implementation otherDependencies.shimmer
+    implementation otherDependencies.jsr310
+    implementation otherDependencies.timber
+    implementation otherDependencies.zxing
+    implementation otherDependencies.maskedittext
+    implementation otherDependencies.inputmask
+    implementation otherDependencies.gestureView
+    implementation otherDependencies.cameraView
+    implementation firebaseDependencies.messaging
 }

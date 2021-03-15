@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activityContent" type="id"/>
+    <item name="amount_watcher_tag_id" type="id"/>
+    <item name="mask_watcher_tag_id" type="id"/>
+    <item name="progress_view_id" type="id"/>
+    <item name="trimming_watcher_tag_id" type="id"/>
+    <string name="attach_bank_card_redirect_url">https://www.youtube.com/watch?v=1Bix44C1EzY</string>
+    <string name="deposit_confirm_redirect_url">https://www.youtube.com/watch?v=1Bix44C1EzY</string>
+</resources>

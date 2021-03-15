@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparentPrimary">#CCFFFFFF</color>
+    <style name="AppBase.v27" parent="AppBase.v21">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparentPrimary</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">@bool/isLightTheme</item>
+        <item name="android:windowLightNavigationBar">@bool/isLightTheme</item>
+    </style>
+    <style name="AppTheme" parent="AppBase.v27"/>
+    <style name="AppTheme.BottomSheet.Rounded" parent="AppTheme.BottomSheet.Rounded.v21">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparentPrimary</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">@bool/isLightTheme</item>
+        <item name="android:windowLightNavigationBar">@bool/isLightTheme</item>
+    </style>
+</resources>

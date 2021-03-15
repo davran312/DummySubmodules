@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?colorPrimary">
+
+    <ImageView
+        android:id="@+id/mediaThumbnailImageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:foreground="@drawable/background_media_item"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription,UnusedAttribute"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/itemPositionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="12dp"
+        android:background="@drawable/background_media_checkbox_blue"
+        android:gravity="center"
+        android:minWidth="20dp"
+        android:minHeight="20dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:textAppearance="@style/AppTheme.TextAppearance.Regular12"
+        android:textColor="@android:color/white"
+        tools:maxLength="1"
+        tools:text="@tools:sample/date/hhmm" />
+
+    <View
+        android:id="@+id/selectItemView"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|end" />
+</FrameLayout>

@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+anim fade_in
+anim fade_out
+anim nav_enter
+anim nav_exit
+anim nav_pop_enter
+anim nav_pop_exit
+anim nav_stay_transparent
+anim slide_down
+anim slide_down_alpha
+anim slide_up
+anim slide_up_alpha
+id activityContent
+id amount_watcher_tag_id
+id featureContent
+id mask_watcher_tag_id
+id progressView
+id progress_view_id
+id trimming_watcher_tag_id
+layout fragment_container
+layout widget_progress_view
+string attach_bank_card_redirect_url
+string deposit_confirm_redirect_url

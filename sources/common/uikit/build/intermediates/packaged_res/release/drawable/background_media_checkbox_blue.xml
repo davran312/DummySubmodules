@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/background_media_checkbox_checked_secondary" android:state_activated="true" android:state_focused="true" />
+    <item android:drawable="@drawable/background_media_checkbox_unchecked_white" android:state_activated="false" android:state_focused="true" />
+    <item android:drawable="@drawable/background_media_checkbox_unchecked_white" android:state_activated="false" />
+    <item android:drawable="@drawable/background_media_checkbox_checked_secondary" android:state_activated="true" />
+</selector>

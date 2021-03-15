@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:orientation="vertical"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/topTextView"
+        style="@style/AppTheme.Label.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?colorFootnotesOnPrimary"
+        tools:text="@string/deposit_spp_description" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/AppTheme.Label.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lineSpacingExtra="4dp"
+        tools:text="Some text" />
+
+</merge>

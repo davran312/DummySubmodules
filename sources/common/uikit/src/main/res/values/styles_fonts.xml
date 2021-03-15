@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.TextAppearance" />
+
+    <style name="AppTheme.TextAppearance.Regular34">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Regular22">
+        <item name="android:textColor">?colorFootnotesOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Medium22">
+        <item name="android:textColor">?colorFootnotesOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Bold28">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Medium20">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Regular16">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Medium16">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Regular14">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Medium14">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Regular12">
+        <item name="android:textColor">?colorMediumEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Regular10">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_regular</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Medium10">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium8">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Medium12">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bubbleTextView"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:elevation="1dp"
+    android:gravity="center"
+    android:minWidth="24dp"
+    android:minHeight="24dp"
+    android:textAppearance="@style/AppTheme.TextAppearance.Regular12"
+    tools:text="9" />

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+
+    <path
+        android:strokeColor="?colorHighEmphasisOnPrimary"
+        android:strokeWidth="2.3"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M21.7143 3.42859H5.7143C4.45194 3.42859 3.42859 4.45194 3.42859 5.7143V21.7143C3.42859 22.9767 4.45194 24 5.7143 24H21.7143C22.9767 24 24 22.9767 24 21.7143V5.7143C24 4.45194 22.9767 3.42859 21.7143 3.42859Z" />
+    <path
+        android:strokeColor="?colorHighEmphasisOnPrimary"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 7.85718 6.85712 L 19.57148 6.85712 Q 20.57148 6.85712 20.57148 7.85712 L 20.57148 10.99998 Q 20.57148 11.99998 19.57148 11.99998 L 7.85718 11.99998 Q 6.85718 11.99998 6.85718 10.99998 L 6.85718 7.85712 Q 6.85718 6.85712 7.85718 6.85712 Z" />
+    <path
+        android:strokeColor="?colorHighEmphasisOnPrimary"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 16.2858 15.4286 H 19.71437 V 20.57146 H 16.2858 V 15.4286 Z" />
+    <path
+        android:strokeColor="?colorHighEmphasisOnPrimary"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M6.85718 15.4286L6.88396 15.4286M6.85718 18H6.88396M6.85718 20.5714H6.88396M9.42861 15.4286L9.45539 15.4286M9.42861 18H9.45539M9.42861 20.5714H9.45539M12 15.4286L12.0268 15.4286M12 18H12.0268M12 20.5714H12.0268" />
+    <path
+        android:strokeColor="?colorHighEmphasisOnPrimary"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M15.4286 15.4286L20.5714 15.4286" />
+</vector>

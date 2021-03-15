@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/merchantLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <namba.wallet.nambaone.uikit.widget.ImageWithPlaceholderView
+            android:id="@+id/merchantIcon"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/background_disabled_on_primary_rounded"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:placeholderDrawable="@drawable/ic_no_photo" />
+
+        <TextView
+            android:id="@+id/userNameTextView"
+            style="@style/AppTheme.Label.Body1.Medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/merchantIcon"
+            app:layout_constraintTop_toTopOf="@+id/merchantIcon"
+            tools:text="Namba one" />
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            style="@style/AppTheme.Label.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/mediumEmphasisOnPrimary"
+            app:layout_constraintStart_toStartOf="@id/userNameTextView"
+            app:layout_constraintTop_toBottomOf="@id/userNameTextView"
+            tools:text="fasdfas" />
+
+        <TextView
+            android:id="@+id/locationTextView"
+            style="@style/AppTheme.Label.Caption"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:drawablePadding="16dp"
+            android:visibility="gone"
+            app:drawableStartCompat="@drawable/ic_location"
+            app:layout_constraintBottom_toBottomOf="@+id/merchantIcon"
+            app:layout_constraintStart_toStartOf="@id/userNameTextView"
+            app:layout_constraintTop_toBottomOf="@id/categoryTextView"
+            app:layout_constraintVertical_bias="1" />
+
+        <ImageView
+            android:id="@+id/badgeIcon"
+            style="@style/AppTheme.Label.Caption"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_badge"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/discountIcon"
+            style="@style/AppTheme.Label.Caption"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_discount"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/badgeIcon" />
+
+        <ImageView
+            android:id="@+id/cashoutIcon"
+            style="@style/AppTheme.Label.Caption"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_cashout"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/discountIcon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

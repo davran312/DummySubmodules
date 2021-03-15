@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="namba.wallet.nambaone.uikit" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml
+8
+9    <meta-data
+9-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:4:5-6:53
+10        android:name="preloaded_fonts"
+10-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:5:9-39
+11        android:resource="@array/preloaded_fonts" />
+11-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:6:9-50
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:8:5-65
+13-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:8:22-62
+14
+15    <application>
+15-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:10:5-24:19
+16        <activity
+16-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:11:9-14:52
+17            android:name="namba.wallet.nambaone.uikit.camera.ui.CameraActivity"
+17-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:12:13-53
+18            android:configChanges="orientation|screenSize"
+18-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:13:13-59
+19            android:screenOrientation="portrait" />
+19-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:14:13-49
+20        <activity
+20-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:15:9-18:52
+21            android:name="namba.wallet.nambaone.uikit.picker.MediaGalleryActivity"
+21-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:16:13-56
+22            android:configChanges="orientation|screenSize"
+22-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:17:13-59
+23            android:screenOrientation="portrait" />
+23-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:18:13-49
+24        <activity
+24-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:19:9-23:70
+25            android:name="namba.wallet.nambaone.uikit.picker.preview.PreviewActivity"
+25-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:20:13-59
+26            android:configChanges="orientation|screenSize"
+26-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:21:13-59
+27            android:screenOrientation="portrait"
+27-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:22:13-49
+28            android:windowSoftInputMode="adjustResize|stateHidden" />
+28-->/Users/admin/Documents/nambaone-android/sources/common/uikit/src/main/AndroidManifest.xml:23:13-67
+29    </application>
+30
+31</manifest>

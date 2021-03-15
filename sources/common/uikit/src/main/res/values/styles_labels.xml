@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Label" />
+
+    <style name="AppTheme.Label.H3">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular34</item>
+    </style>
+
+    <style name="AppTheme.Label.H4">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Bold28</item>
+    </style>
+
+    <style name="AppTheme.Label.H5">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium22</item>
+    </style>
+
+    <style name="AppTheme.Label.H6">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium20</item>
+        <item name="android:letterSpacing">0.00936</item>
+    </style>
+
+    <style name="AppTheme.Label.Subtitle1">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular16</item>
+        <item name="android:letterSpacing">0.00936</item>
+    </style>
+
+    <style name="AppTheme.Label.Subtitle2">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium14</item>
+        <item name="android:letterSpacing">0.006</item>
+    </style>
+
+    <style name="AppTheme.Label.Body1">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular16</item>
+        <item name="android:letterSpacing">0.031</item>
+    </style>
+
+    <style name="AppTheme.Label.Body1.Medium">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium16</item>
+    </style>
+
+    <style name="AppTheme.Label.Body2">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular14</item>
+        <item name="android:letterSpacing">0.016</item>
+    </style>
+
+    <style name="AppTheme.Label.Body2.Medium">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium14</item>
+        <item name="textColor">?colorMediumEmphasisOnPrimary</item>
+    </style>
+
+    <style name="AppTheme.Label.Button">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium14</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.078</item>
+    </style>
+
+    <style name="AppTheme.Label.TextButton">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium16</item>
+        <item name="android:letterSpacing">0.009</item>
+    </style>
+
+    <style name="AppTheme.Label.Caption">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Regular12</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+
+    <style name="AppTheme.Label.Caption.Medium">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium12</item>
+    </style>
+
+    <style name="AppTheme.Label.Overline">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Medium10</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.094</item>
+    </style>
+
+    <style name="AppTheme.Label.TabItem" parent="@style/AppTheme.TextAppearance.Medium14">
+        <item name="android:letterSpacing">0.094</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>

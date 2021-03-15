@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:textColorPrimary">@color/highEmphasisOnPrimary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MediumEmphasisColoredText</item>
+        <item name="buttonBarPositiveButtonStyle">@style/SecondaryColoredText</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowMinWidthMinor">320dp</item>
+    </style>
+
+    <!-- Overrides default alert dialog message style -->
+    <style name="TextAppearance.AppCompat.Subhead" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowMinWidthMinor">280dp</item>
+    </style>
+
+    <!--  Style for dialogs where positive button should has error colored text  -->
+    <style name="AppTheme.AlertDialog.NegativePositive">
+        <item name="buttonBarPositiveButtonStyle">@style/ErrorColoredText</item>
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowMinWidthMinor">320dp</item>
+    </style>
+
+    <style name="ErrorColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/errorOnPrimary</item>
+    </style>
+
+    <style name="MediumEmphasisColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/mediumEmphasisOnPrimary</item>
+    </style>
+
+    <style name="HighEmphasisColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/highEmphasisOnPrimary</item>
+    </style>
+
+    <style name="SecondaryColoredText" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+</resources>

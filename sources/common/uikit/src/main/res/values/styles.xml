@@ -1,0 +1,104 @@
+<resources>
+
+    <style name="Separator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_height">.5dp</item>
+    </style>
+
+    <style name="ToolbarBottom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayoutStyle">
+        <item name="android:textColorHint">?colorMediumEmphasisOnPrimary</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="AppTheme.HelperTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?colorMediumEmphasisOnPrimary</item>
+    </style>
+
+    <style name="AppTheme.ErrorTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?colorErrorOnPrimary</item>
+    </style>
+
+    <style name="BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_alert_elevation_rounded_top</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="AppRoundCornersModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_alert_elevation_rounded_top</item>
+    </style>
+    
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog"/>
+
+    <style name="AppTheme.ProgressButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">@color/color_state_secondary_he_enable</item>
+        <item name="android:background">@drawable/background_secondary_rounded_button</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme.ProgressButton.Secondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">?colorHighEmphasisOnPrimary</item>
+        <item name="android:background">@drawable/background_primary_high_emphasis_stroke</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="MaterialTheme.EntryChip">
+        <item name="closeIconEnabled">false</item>
+        <item name="closeIconSize">20dp</item>
+        <item name="closeIconEndPadding">4dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:checkable">true</item>
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@drawable/chip_text_color_state_list</item>
+        <item name="chipBackgroundColor">@drawable/background_chip_state_list</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="closeIcon">@drawable/ic_delete</item>
+        <item name="chipMinHeight">36dp</item>
+    </style>
+
+    <style name="AppTheme.SwitchCompat" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <!-- активное состояние (30% прозрачности для фона) -->
+        <item name="colorControlActivated">@color/switchTintPrimary</item>
+
+        <!-- неактивное состояние ползунка -->
+        <item name="colorSwitchThumbNormal">@color/switchTintSecondary</item>
+
+        <!-- цвет дорожки для неактивного состояния (30% прозрачности) -->
+        <item name="android:colorForeground">@color/switchTintBackground</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+</resources>

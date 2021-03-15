@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:splitMotionEvents="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false"
+        android:weightSum="3">
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/onePinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_text="1" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/twoPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            app:keyboard_button_text="2" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/threePinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_text="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false"
+        android:weightSum="3">
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/fourPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_text="4" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/fivePinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            app:keyboard_button_text="5" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/sixPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_text="6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pin_code_third_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false"
+        android:weightSum="3">
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/sevenPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_text="7" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/eightPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            app:keyboard_button_text="8" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/ninePinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_text="9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false"
+        android:weightSum="3">
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/additionalLeftPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/zeroPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            app:keyboard_button_text="0" />
+
+        <namba.wallet.nambaone.uikit.widget.NumberKeyboardButtonView
+            android:id="@+id/additionalRightPinCodeButton"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:keyboard_button_image="@drawable/ic_backspace" />
+
+    </LinearLayout>
+
+</LinearLayout>
