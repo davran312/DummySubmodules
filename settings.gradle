@@ -1,4 +1,8 @@
 include ':app'
+addSubfolderProjects("sources/common", "common")
+addSubfolderProjects("sources/domain", "domain")
+addSubfolderProjects("sources/data", "data")
+addSubfolderProjects("sources/screen", "screen")
 
 
 def addSubfolderProjects(String relativePath, String prefix = "") {

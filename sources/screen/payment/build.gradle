@@ -1,2 +1,41 @@
 apply from: "$project.rootDir/scripts/common-library.gradle"
 
+dependencies {
+    implementation project(':common-strings')
+    implementation project(':common-core')
+    implementation project(':common-uikit')
+
+    implementation project(':domain-payment')
+    implementation project(':data-payment')
+    implementation kotlinDependencies.stdlib
+
+    implementation coroutinesDependencies.core
+    implementation coroutinesDependencies.android
+
+    implementation androidXDependencies.coreKtx
+    implementation androidXDependencies.biometrics
+    implementation androidXDependencies.appcompat
+    implementation androidXDependencies.fragmentKtx
+    implementation androidXDependencies.constraintLayout
+    implementation androidXDependencies.lifecycleRuntimeKtx
+    implementation androidXDependencies.materialDesign
+
+    implementation koinDependencies.core
+    implementation koinDependencies.viewModel
+
+    implementation okHttpDependencies.core
+
+    implementation retrofitDependencies.gson
+
+    implementation glideDependencies.core
+    implementation okHttpDependencies.loggingInterceptor
+
+    implementation otherDependencies.gson
+    implementation otherDependencies.jsr310
+    implementation otherDependencies.timber
+    implementation otherDependencies.inputmask
+
+    implementation otherDependencies.amplitude
+    implementation firebaseDependencies.analytics
+    api otherDependencies.branch
+}
