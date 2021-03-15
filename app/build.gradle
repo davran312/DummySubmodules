@@ -37,7 +37,6 @@ android {
 }
 
 dependencies {
-
     implementation kotlinDependencies.stdlib
     implementation coroutinesDependencies.core
     implementation coroutinesDependencies.android
