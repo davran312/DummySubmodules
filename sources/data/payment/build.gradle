@@ -1,10 +1,6 @@
 apply from: "$project.rootDir/scripts/common-library.gradle"
 
 dependencies {
-    implementation project(":common-core")
-
-    implementation project(":domain-payment")
-
     implementation retrofitDependencies.gson
 
     implementation koinDependencies.core
